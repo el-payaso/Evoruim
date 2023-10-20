@@ -72,7 +72,7 @@ const VideoPlayer = () => {
                   position: "relative",
                 }}
               >
-                <ReactPlayer controls={true} url={videoURL} />
+                <ReactPlayer controls={true} url={"https://www.youtube.com/watch?v=LXb3EKWsInQ"} />
 
                 {subscriptionType?.[1] == 'pro' &&  <div
                   style={{
