@@ -23,8 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set PORT=https://6532c7a6e616a1009ce5b2ea--delightful-sopapillas-406e2d.netlify.app/ && react-scripts start",
-    "build": "set PORT=https://6532c7a6e616a1009ce5b2ea--delightful-sopapillas-406e2d.netlify.app/ && react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

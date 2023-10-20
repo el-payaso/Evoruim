@@ -26,7 +26,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
  
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(false);
 
     useEffect(() => {
       const handleResize = () => {
