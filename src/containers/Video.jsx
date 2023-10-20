@@ -35,7 +35,7 @@ const VideoPlayer = () => {
   const regex = /[?&]type=([^&]+)/;
   const subscriptionType = window.location.search.match(regex);
 
-  console.log(subscriptionType[1])
+  // console.log(subscriptionType[1])
 
   const videoURL = window.location.search.slice(
     1,
@@ -74,7 +74,7 @@ const VideoPlayer = () => {
               >
                 <ReactPlayer controls={true} url={videoURL} />
 
-                {subscriptionType[1] == 'pro' &&  <div
+                {subscriptionType?.[1] == 'pro' &&  <div
                   style={{
                     backgroundColor: "transparent",
                     height: "100%",
