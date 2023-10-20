@@ -22,7 +22,7 @@ const Card = ({
           }} className="subs-card free-card">
       <div className="card-wrapper">
         <div className="img-wrap">
-        <ReactPlayer url={`${appPort}/videoplayer?${url}`} width={'100%'} light={true} className="bg-img"  />
+        <ReactPlayer url={`${url}`} width={'100%'} light={true} className="bg-img"  />
           {/* <div  className="bg-img" >
              <img src={url} />
         </div> */}
